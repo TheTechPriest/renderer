@@ -2,7 +2,7 @@
 #define COLOR_H
 
 #include "vec3.h"
-#include <iostream>
+//#include <iostream>
 
 // Creating a version of our vector class called 'color' containing a pixel's color info
 

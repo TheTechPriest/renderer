@@ -1,8 +1,8 @@
 #ifndef VEC3_H
 #define VEC3_H
 
-#include <cmath>
-#include <iostream>
+//#include <cmath>
+//#include <iostream>
 
 // Setting up header classes
 // We create the useful vec3 class to represent regular three points vectors used in our operations
