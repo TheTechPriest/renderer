@@ -4,6 +4,7 @@
 #include <cmath>
 #include <iostream>
 
+// Setting up header classes
 // We create the useful vec3 class to represent regular three points vectors used in our operations
 // Using double or float, double here is much more precise, at the cost of performance, could be swapped out in case of hardware intensive computations
 class vec3 {
