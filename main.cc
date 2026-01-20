@@ -27,7 +27,7 @@
 
 color ray_color(const ray& r, const hittable& world) {
     hit_info info;
-    if (world.hit(r, 0, infinity, info)) {
+    if (world.hit(r, interval(0, infinity), info)) {
         return .5 * (info.normal + color(1, 1, 1));
     }
 
