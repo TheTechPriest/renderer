@@ -14,13 +14,14 @@ int main() {
 
     world.add(make_shared<sphere>(point3(0, 0, -1), .5));
     world.add(make_shared<sphere>(point3(0, -100.5, -1), 100));
-
+    
     // Setting up camera
     camera cam;
 
     cam.aspect_ratio = 16.0 / 9.0;
     cam.imageW = 400;
     cam.spp = 100;
+    cam.max_depth = 50;
 
     cam.render(world);
 
