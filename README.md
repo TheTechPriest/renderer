@@ -10,6 +10,8 @@ It includes for now:
 
 -Camera settings including depth of field and field of view
 
+HOW TO USE: If you decide to compile this, simply pipe the resulding output to a text file with the .ppm extension. Any ppm viewer should be able to display your image from that file. Feel free to mess around in the main.
+
 ![alt text](https://github.com/TheTechPriest/renderer/blob/main/exampleimages/output.jpg?raw=true)
 
 
